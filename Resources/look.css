@@ -1,0 +1,52 @@
+body{
+    background:#f5f4e1;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+.header-container{
+    display: flex;
+}
+
+.logo > img{
+    padding-top: 1.5%;
+    height: 150px;
+    width: 350px;
+}
+
+.footer{
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li{
+    padding-right: 10%;
+}
+
+.footer img{
+    height: 15px;
+}
+
+.boe-tie{
+    animation: rotation 2s infinite ;
+
+}
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
