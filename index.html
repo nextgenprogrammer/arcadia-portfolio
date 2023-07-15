@@ -4,33 +4,54 @@
         <title>Arcadia</title>
         <link rel="stylesheet" type="text/css" href="look.css">
         <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="disclaimer.css">
         </head>
     <body>
-        <div class="header-container">
-            <div class="logo-wrapper">
-                <div class="logo">
-                    <img src="Resources/Arcadia-logo.png" alt="logo">
+        <div class="disclaimer-container" id="disclaimer">
+            <h1 center>DISCLAIMER</h1>
+            <p class="disclaimer-text">
+                The Bar Council of India does not authorise any type of advertisement or solicitation by advocates. 
+                The content on this website is meant for general information and educational purposes. It is not intended to provide legal advice. 
+                This website is not designed to establish an attorney-client relationship, and you should not rely on any information on it without 
+                first consulting with an attorney. This website's content is not a substitute for professional legal, medical, or financial advice, 
+                and you should not act on it without first consulting with the proper specialists. By using this website, you accept and certify that 
+                you are seeking information about Arcadia Legal Associates on your own initiative and that no solicitation, advertisement, or enticement
+                 has been made by Arcadia Legal Associates or its members. This website or Arcadia Legal Associates will not be liable for any loss, 
+                 injury, claim, responsibility, or harm resulting from your use of this website.
+            </p>
+            <div class="disclaimer-buttons">
+                <div class="dis-button" id="Accept-Button" onclick="ToggleElement('Accept')">Accept</div>
+                <div class="dis-button" id="Decline-Button" onclick="ToggleElement('Decline')">Decline</div>
+            </div>
+        </div>
+        <div class="main-container" id="main">
+            <div class="header-container">
+                <div class="logo-wrapper">
+                    <div class="logo">
+                        <img src="Resources/Arcadia-logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="navbar">
+                    <a class="active" href="">Home</a>
+                    <a href="">About US</a>
+                    <a href="">Services</a>
+                    <a href="">Careers</a>
+                    <a href="">Contact Us</a>
                 </div>
             </div>
-            <div class="navbar">
-                <a class="active" href="">Home</a>
-                <a href="">About US</a>
-                <a href="">Services</a>
-                <a href="">Careers</a>
-                <a href="">Contact Us</a>
+            <div class="footer">
+                <ul>
+                    <li>A</li>
+                    <li>R</li>
+                    <li>C</li>
+                    <li><img class="boe-tie" src="Resources/lawyer-boetie.png" alt="boe-tie"></li>
+                    <li>D</li>
+                    <li>I</li>
+                    <li>A</li>
+                </ul>
             </div>
         </div>
-        <div class="footer">
-            <ul>
-                <li>A</li>
-                <li>R</li>
-                <li>C</li>
-                <li><img class="boe-tie" src="Resources/lawyer-boetie.png" alt="boe-tie"></li>
-                <li>D</li>
-                <li>I</li>
-                <li>A</li>
-            </ul>
-        </div>
+        <script src="disclaimer.js"></script>
     </body>
 </html>
 

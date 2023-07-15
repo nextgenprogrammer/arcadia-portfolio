@@ -1,0 +1,48 @@
+.disclaimer-container{
+    margin: auto;
+    width: 100%;
+}
+
+.disclaimer-buttons{
+    display: flex;
+}
+
+.dis-button{
+    padding:20px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    height: 30px;
+}
+
+
+#Accept-Button{
+    border: 5px solid black;
+    background-color: green;
+    padding-right: 20px;
+}
+
+#Decline-Button{
+    border: 5px solid black;
+    background-color: red;
+}
+
+
+.dis-button:hover {
+    text-transform: capitalize;
+    opacity: 0.3;
+}
+
+
+.disclaimer-container {
+    padding-top: 50px;
+    line-height: 50px;
+    height: 200px;
+    text-align: center;
+  }
+  
+.disclaimer-text {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }

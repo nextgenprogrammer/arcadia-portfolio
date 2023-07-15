@@ -5,6 +5,10 @@ body{
     
 }
 
+.main-container{
+    display: none;
+}
+
 .header-container{
     display: flex;
 }
